@@ -1,0 +1,42 @@
+img {border-radius:18px}
+img.center{
+display:block;
+margin-left: auto;
+margin-rigth: auto;
+}
+.centrado{ magin:10px auto;
+display:block;
+}
+#cabecera
+{ background-color:#2ac2ff ;
+text-align:center;
+color:#eaffbf;
+
+}
+h2{text-align:center;}
+p[name=parrafo]{color: #ba645c;}
+
+#barranavegacion{background-color:#3c49f0 ;
+
+}
+								
+		
+#barralateral{background-color:#60f050;
+float:left;
+height: 1070px;}		
+
+#sectorprincipal{background-color:#f0a826;
+margin-left: 220px;}
+#pieprincipal{background-color:#eaf000;
+text-align:center;
+
+
+}
+	
+li{background-color:yellow;
+display:inline;
+text-align:center;
+
+}			
+		
+		
