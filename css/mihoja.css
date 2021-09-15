@@ -14,7 +14,12 @@ color:#eaffbf;
 
 }
 h2{text-align:center;}
-p[name=parrafo]{color: #ba645c;}
+p[name=parrafo]{color: #ba645c;
+ 
+    margin-left: 0px;
+    overflow:auto;
+    display:block
+}
 
 #barranavegacion{background-color:#3c49f0 ;
 
