@@ -1,12 +1,20 @@
+
+@media  screen and (max-width:680px){body 
+    {background-color:lightblue ;
+    }    
+}
+
+
 img {border-radius:18px}
 img.center{
 display:block;
 margin-left: auto;
-margin-rigth: auto;
+max-width: 50%;
 }
 .centrado{ magin:10px auto;
 display:block;
 }
+.fondo{font-size: 90%; background-color: lightgray;}
 #cabecera
 { background-color:#2ac2ff ;
 text-align:center;
@@ -24,16 +32,22 @@ p[name=parrafo]{color: #ba645c;
 #barranavegacion{background-color:#3c49f0 ;
 
 }
-								
+
+a { background-color:#00ff00;}							
 		
 #barralateral{background-color:#60f050;
 float:left;
-height: 1070px;}		
+
+height: 1180px;
+margin-bottom: 95%;
+}		
 
 #sectorprincipal{background-color:#f0a826;
 margin-left: 220px;}
+
 #pieprincipal{background-color:#eaf000;
 text-align:center;
+height: 80px;
 
 
 }
