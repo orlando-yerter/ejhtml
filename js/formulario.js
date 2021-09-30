@@ -6,7 +6,7 @@ function validar(){
         form.nombre.focus();
         return  false;
       }
-      if(form.email.value==0){
+	else if form.email.value==0){
         alert("el mail  esta vacio");
         form.email.value= "";
         form.email.focus();
