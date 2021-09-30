@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+   <!-- <script type="text/javascript">
+
+      function validar(){
+         var form =document.form;
+           if(form.nombre.value==0){
+             alert("el nombre esta vacio");
+             form.nombre.value= "";
+             form.nombre.focus();
+             return  false;
+           }
+           if(form.email.value==0){
+             alert("el mail  esta vacio");
+             form.email.value= "";
+             form.email.focus();
+             return  false;
+         }
+        document.write("los datos se han enviados correctamente");
+        form.submit();
+      
+
+    } 
+    
+    </script>
+ --> 
+ <script src="js/formulario.js"> </script>
+</head>
+<body>
+    <form name="form" action="#" method="POST" onsubmit="validar();">
+        NOMBRE: <input type="text" name="nombre" placeholder="ingesa tu nombre" > <br> <br>
+        APELLIDO: <input type="text" name="apellido" placeholder="ingesa tu apellido"> <br> <br>
+        TELEFONO: <input type="tel" name="Telefono" placeholder="ingesa tu TELEFONO" required> 
+        <span id="requerido">*</span> <br> <br>
+        
+        EMAIL: <input type="email" name="email" placeholder="ingesa tu email">  <br> <br>
+        
+        CONSULTA: <br> <br> 
+        <textarea type="consulta" rows="5" cols="40" placeholder="ingesa tu consulta aqui"></textarea><br>
+        
+        <button onclick ="validar();"> Enviar</button>
+    
+    </form>
+</body>
+</html>
