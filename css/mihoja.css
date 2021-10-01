@@ -1,11 +1,11 @@
 
-@media only screen and (min-width:680px){body 
+@media only screen and (min-width:600px){body 
     {background-color:lightblue ;
     }    
 }
 
 
-@media  screen and (max-width:680px){body 
+@media  screen and (max-width:600px){body 
     {background-color:rgb(155, 197, 144) ;
     }    
 }
@@ -48,6 +48,7 @@ margin-bottom: 95%;
 
 #sectorprincipal{background-color:#f0a826;
 margin-left: 220px;}
+#foto1{max-width: 130px;}
 
 #pieprincipal{background-color:#eaf000;
 text-align:center;
